@@ -9,7 +9,7 @@ function ProductList({ onHomeClick }) {
   const [showPlants, setShowPlants] = useState(false);
   const [addedToCart, setAddedToCart] = useState({});
   const dispatch = useDispatch();
-  
+
   const plantsArray = [
     {
       category: "Air Purifying Plants",
